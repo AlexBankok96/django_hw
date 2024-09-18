@@ -1,0 +1,91 @@
+[
+  {
+    "model": "catalog.category",
+    "pk": 1,
+    "fields": {
+      "name": "Electronics",
+      "description": "Electronic items"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 2,
+    "fields": {
+      "name": "Books",
+      "description": "Various kinds of books"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 3,
+    "fields": {
+      "name": "Clothing",
+      "description": "Men's and women's clothing"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 1,
+    "fields": {
+      "name": "Smartphone",
+      "description": "Latest model smartphone",
+      "image": "path/to/image.jpg",
+      "category": 1,
+      "price": "699.99",
+      "created_at": "2024-09-18T17:44:20.618Z",
+      "updated_at": "2024-09-18T17:44:20.618Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 2,
+    "fields": {
+      "name": "Laptop",
+      "description": "High-performance laptop",
+      "image": "path/to/image.jpg",
+      "category": 1,
+      "price": "999.99",
+      "created_at": "2024-09-18T17:44:30.814Z",
+      "updated_at": "2024-09-18T17:44:30.814Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 3,
+    "fields": {
+      "name": "Novel",
+      "description": "Interesting novel",
+      "image": "path/to/image.jpg",
+      "category": 2,
+      "price": "19.99",
+      "created_at": "2024-09-18T17:44:30.818Z",
+      "updated_at": "2024-09-18T17:44:30.818Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 4,
+    "fields": {
+      "name": "T-shirt",
+      "description": "Comfortable cotton T-shirt",
+      "image": "path/to/image.jpg",
+      "category": 3,
+      "price": "9.99",
+      "created_at": "2024-09-18T17:44:30.819Z",
+      "updated_at": "2024-09-18T17:44:30.819Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 5,
+    "fields": {
+      "name": "Jeans",
+      "description": "Stylish jeans",
+      "image": "path/to/image.jpg",
+      "category": 3,
+      "price": "29.99",
+      "created_at": "2024-09-18T17:44:30.821Z",
+      "updated_at": "2024-09-18T17:44:30.821Z"
+    }
+  }
+]
